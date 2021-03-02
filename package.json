@@ -1,0 +1,26 @@
+{
+  "name": "cloner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "js-beautify": "^1.13.5",
+    "native-url": "^0.3.4",
+    "node-html-parser": "^3.0.3",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  },
+  "scripts": {
+    "clone": "node ./src/clone.js",
+    "css": "node ./src/css.js",
+    "html": "node ./src/html.js",
+    "htmlsource": "node ./src/htmlsource.js",
+    "html2css": "node ./src/html2css.js",
+    "json2img": "node ./src/html2css.js",
+    "html-beautifier": "node ./src/html-beautifier.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
